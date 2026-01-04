@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Projects - {{ config.title }}{% endblock %}
+
+{% block content %}
+<h1>Projects</h1>
+
+<p>Things I've built or am building.</p>
+
+<ul class="project-list">
+{% for page in section.pages %}
+  <li>
+    <a href="{{ page.permalink }}">{{ page.title }}</a>
+    {% if page.description %}<p class="excerpt">{{ page.description }}</p>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endblock %}

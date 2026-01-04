@@ -1,0 +1,12 @@
+base_url = "https://example.com"
+title = "Scott's Site"
+description = "A boring website with a blog and projects"
+compile_sass = false
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+
+[extra]
