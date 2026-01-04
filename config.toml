@@ -1,5 +1,5 @@
-base_url = "https://example.com"
-title = "Scott's Site"
+base_url = "https://scottyea.com"
+title = "Scott Yeager's homepage"
 description = "A boring website with a blog and projects"
 compile_sass = false
 generate_feeds = true
